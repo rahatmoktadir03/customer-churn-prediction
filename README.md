@@ -24,16 +24,21 @@ Customer churn is a major challenge in the subscription-based industry. This pro
 ```bash
 git clone https://github.com/rahatmoktadir03/customer-churn-prediction.git
 cd customer-churn-prediction
-### 2️⃣ Create Virtual Environment
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-### 3️⃣ Install Dependencies
+```
+
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+
+### 3️⃣ Run Jupyter Notebook 
+```bash
+jupyter notebook notebooks/churn_prediction.ipynb
+```
 
 ---
 
-📌 Future Enhancements
-✅ Deploy as a Flask/FastAPI web service
-✅ Add hyperparameter tuning with GridSearchCV
-✅ Build an interactive dashboard (Streamlit/Dash)
-
+## 📌 Future Enhancements
+- Deploy as a Flask/FastAPI web service
+- Add hyperparameter tuning with GridSearchCV
+- Build an interactive dashboard (Streamlit/Dash)
